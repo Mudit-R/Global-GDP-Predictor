@@ -69,9 +69,9 @@ st.markdown("""
 # Constants
 ARTIFACTS_DIR = "artifacts"
 MODELS = {
-    "RandomForest": "rf_model.pkl",
-    "XGBoost": "xgb_model.pkl", 
-    "GradientBoosting": "gb_model.pkl",
+    "RandomForest": "randomforest_model.pkl",
+    "XGBoost": "xgboost_model.pkl", 
+    "GradientBoosting": "gradientboosting_model.pkl",
     "Ridge": "ridge_model.pkl",
     "SVR": "svr_model.pkl",
     "Ensemble": "ensemble_model.pkl"
@@ -92,6 +92,8 @@ def load_data():
 def load_models():
     """Load all available trained models."""
     models = {}
+    
+    # Load existing models
     for name, filename in MODELS.items():
         model_path = os.path.join(ARTIFACTS_DIR, filename)
         if os.path.exists(model_path):
@@ -103,6 +105,12 @@ def load_models():
                     models[name] = tf.keras.models.load_model(model_path)
             except Exception as e:
                 st.warning(f"Could not load {name} model: {str(e)}")
+        else:
+            st.warning(f"Model file not found: {model_path}")
+    
+    if not models:
+        st.error("❌ No models could be loaded. Please ensure models are available in the artifacts directory.")
+    
     return models
 
 @st.cache_data
