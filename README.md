@@ -1,5 +1,5 @@
 
-# 🌍 Global GDP Predictor Pro
+# Global GDP Predictor Pro
 
 > **Advanced Machine Learning Platform for Global Economic Forecasting**  
 > *Predicting GDP growth across 200+ countries using cutting-edge ML models and comprehensive economic indicators*
@@ -12,42 +12,42 @@
 
 ---
 
-## 🚀 **Showcase: What Makes This Project Impressive**
+## **Showcase: What Makes This Project Impressive**
 
-### 🎯 **Advanced Machine Learning Architecture**
+### **Advanced Machine Learning Architecture**
 - **6 State-of-the-Art Models**: Random Forest, XGBoost, Gradient Boosting, Ridge Regression, SVR, and Ensemble Voting
 - **Sophisticated Feature Engineering**: 50+ derived features including lag variables, rolling statistics, interaction terms, and economic cycles
 - **Time-Aware Cross-Validation**: GroupKFold with country-based splitting for realistic performance estimation
 - **Model Performance Metrics**: RMSE, MAE, SMAPE, R² with statistical significance testing
 
-### 🌍 **Rich Data Infrastructure**
+### **Rich Data Infrastructure**
 - **17+ Economic Indicators**: GDP, inflation, trade, government debt, education, healthcare, technology, and environmental metrics
 - **200+ Countries Coverage**: Comprehensive global economic dataset from World Bank API
 - **Real-time Data Fetching**: Automated data pipeline with error handling and retry logic
 - **Data Quality Assurance**: Advanced outlier detection, missing value imputation, and data validation
 
-### 🎨 **Professional Interactive Dashboard**
+### **Professional Interactive Dashboard**
 - **5 Advanced Tabs**: Predictions, Model Analysis, Economic Indicators, Model Comparison, Data Explorer
 - **Interactive Visualizations**: Plotly charts with zoom, pan, hover details, and responsive design
 - **Real-time Predictions**: Instant GDP forecasts with confidence intervals and error analysis
 - **Feature Importance Analysis**: SHAP-based explanations for model interpretability
 - **Custom UI/UX**: Professional styling with gradient cards, modern typography, and intuitive navigation
 
-### 🏗️ **Enterprise-Grade Features**
+### **Enterprise-Grade Features**
 - **Docker Containerization**: Production-ready deployment with health checks and optimization
 - **Multi-Platform Deployment**: Streamlit Cloud, Heroku, Google Cloud Run, AWS/GCP support
 - **Performance Optimization**: Caching, lazy loading, and efficient data processing
 - **Error Handling**: Comprehensive exception handling with user-friendly error messages
 - **Scalability**: Designed to handle large datasets and high user traffic
 
-### 📊 **Advanced Analytics & Insights**
+### **Advanced Analytics & Insights**
 - **Economic Trend Analysis**: Time series decomposition and seasonal pattern detection
 - **Correlation Analysis**: Feature correlation heatmaps and multicollinearity detection
 - **Residual Analysis**: Model diagnostics with Q-Q plots and distribution analysis
 - **Prediction Confidence**: Statistical confidence intervals and uncertainty quantification
 - **Comparative Analysis**: Side-by-side model performance evaluation
 
-### 🔧 **Developer Experience**
+### **Developer Experience**
 - **Comprehensive Testing**: Unit tests for all components and integration testing
 - **Documentation**: Detailed API reference, deployment guides, and troubleshooting
 - **Version Control**: Git LFS for large model files and professional commit history
@@ -56,10 +56,10 @@
 
 ---
 
-## 🎯 **Quick Start**
+## **Quick Start**
 
 ### **Option 1: Live Demo (Recommended)**
-Visit the live Streamlit Cloud deployment: [🌍 Global GDP Predictor Pro](https://your-app-url.streamlit.app)
+Visit the live Streamlit Cloud deployment: [Global GDP Predictor Pro](https://your-app-url.streamlit.app)
 
 ### **Option 2: Local Development**
 ```bash
@@ -86,27 +86,27 @@ docker run -p 8501:8501 gdp-predictor
 
 ---
 
-## 🌟 **Key Features in Action**
+## **Key Features in Action**
 
-### **📈 Real-Time GDP Predictions**
+### **Real-Time GDP Predictions**
 - Select any country from 200+ options
 - Choose from 6 advanced ML models
 - Get instant predictions with confidence intervals
 - Compare actual vs. predicted performance
 
-### **🔍 Model Performance Analysis**
+### **Model Performance Analysis**
 - Comprehensive model comparison charts
 - Feature importance rankings
 - Cross-validation performance metrics
 - Statistical significance testing
 
-### **📊 Economic Indicators Dashboard**
+### **Economic Indicators Dashboard**
 - Interactive time series visualizations
 - Correlation analysis between indicators
 - Trend decomposition and seasonal patterns
 - Data quality metrics and validation
 
-### **🎯 Advanced Analytics**
+### **Advanced Analytics**
 - Residual analysis and model diagnostics
 - Feature correlation heatmaps
 - Economic cycle detection
@@ -114,7 +114,7 @@ docker run -p 8501:8501 gdp-predictor
 
 ---
 
-## 🏆 **Why This Project Stands Out**
+## **Why This Project Stands Out**
 
 ### **For Data Scientists & ML Engineers:**
 - **Production-Ready Code**: Enterprise-grade architecture with proper error handling
@@ -139,18 +139,18 @@ docker run -p 8501:8501 gdp-predictor
 
 ---
 
-## 🚀 **Deployment Options**
+## **Deployment Options**
 
 | Platform | Difficulty | Cost | Best For |
 |----------|------------|------|----------|
-| **Streamlit Cloud** | ⭐ Easy | Free | Portfolios, demos |
-| **Heroku** | ⭐⭐ Medium | Free tier | Professional projects |
-| **Google Cloud Run** | ⭐⭐⭐ Hard | Pay-per-use | Enterprise, scalability |
-| **AWS/GCP** | ⭐⭐⭐⭐ Expert | Variable | Full control, production |
+| **Streamlit Cloud** | Easy | Free | Portfolios, demos |
+| **Heroku** | Medium | Free tier | Professional projects |
+| **Google Cloud Run** | Hard | Pay-per-use | Enterprise, scalability |
+| **AWS/GCP** | Expert | Variable | Full control, production |
 
 ---
 
-## 📈 **Performance Metrics**
+## **Performance Metrics**
 
 - **Model Accuracy**: R² scores ranging from 0.75 to 0.89 across different models
 - **Prediction Speed**: Real-time forecasts in under 2 seconds
@@ -160,7 +160,7 @@ docker run -p 8501:8501 gdp-predictor
 
 ---
 
-## 🔮 **Future Enhancements**
+## **Future Enhancements**
 
 - **Deep Learning Models**: LSTM, Transformer-based architectures
 - **Real-time Data Streaming**: Live economic data updates
@@ -170,7 +170,7 @@ docker run -p 8501:8501 gdp-predictor
 
 ---
 
-## 🤝 **Contributing**
+## **Contributing**
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -183,13 +183,13 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ---
 
-## 📄 **License**
+## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 **Acknowledgments**
+## **Acknowledgments**
 
 - **World Bank**: For providing comprehensive economic data
 - **Scikit-learn**: For robust machine learning algorithms
@@ -198,7 +198,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 **Contact & Support**
+## **Contact & Support**
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Mudit-R/Global-GDP-Predictor/issues)
 - **Discussions**: [Join the community](https://github.com/Mudit-R/Global-GDP-Predictor/discussions)
@@ -206,6 +206,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ Star this repository if you find it helpful!**
+**Star this repository if you find it helpful!**
 
-**🚀 Ready to predict the future of global economics?**
+**Ready to predict the future of global economics?**

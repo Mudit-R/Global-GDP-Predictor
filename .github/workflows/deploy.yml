@@ -1,4 +1,4 @@
-name: 🚀 Test & Deploy Global GDP Predictor
+name: Test & Deploy Global GDP Predictor
 
 on:
   push:
@@ -50,9 +50,9 @@ jobs:
     
     - name: Deploy to Streamlit Cloud
       run: |
-        echo "🚀 Deployment to Streamlit Cloud would happen here"
+        echo "Deployment to Streamlit Cloud would happen here"
         echo "This shows CI/CD pipeline capability"
     
     - name: Update deployment status
       run: |
-        echo "✅ Deployment pipeline completed successfully"
+        echo "Deployment pipeline completed successfully"
