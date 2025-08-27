@@ -90,5 +90,4 @@ Once launched, the Streamlit app allows you to:
 ---
 
 ## 👨‍💻 Author
-Developed by *[Your Name]* — Data Science & Machine Learning Enthusiast.  
-Feel free to connect on [LinkedIn](https://linkedin.com/in/yourprofile) or check out my [GitHub](https://github.com/your-username).
+Developed by Mudit Rungta — Data Science & Machine Learning Enthusiast.  
